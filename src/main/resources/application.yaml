@@ -15,6 +15,10 @@ spring:
   config:
     import: configserver:http://localhost:9296
 
+okta:
+  oauth2:
+    issuer: https://dev-50776071.okta.com/oauth2/default
+
 #eureka:
 #  instance:
 #    prefer-ip-address: true
